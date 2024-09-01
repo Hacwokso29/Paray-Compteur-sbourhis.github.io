@@ -1,0 +1,36 @@
+/* Appliquer un style de base pour le corps de la page */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styliser l'image de fond */
+.overlay {
+    background-image: url('votre-image.jpg'); /* Remplacez 'votre-image.jpg' par le nom de votre image */
+    background-size: cover; /* Assure que l'image couvre tout l'écran */
+    background-position: center; /* Centre l'image */
+    height: 100%; /* Prend toute la hauteur de la page */
+    display: flex; /* Active le mode flexbox */
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    text-align: center;
+    color: white; /* Texte en blanc */
+}
+
+/* Styliser le conteneur central */
+.container {
+    background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent pour le texte */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styliser le texte du compteur */
+#countdown {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#countdown span {
+    margin: 0 10px; /* Espace entre les unités de temps */
+}
